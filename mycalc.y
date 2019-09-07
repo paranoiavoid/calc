@@ -18,7 +18,7 @@ line_list
 line
     : expression CR
     {
-        printf(">>%LF\n", $1);
+        printf(">>%lf\n", $1);
     }
 expression
     : term
